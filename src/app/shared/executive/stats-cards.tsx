@@ -7,7 +7,7 @@ import TrendingUpIcon from '@/components/icons/trending-up';
 import TrendingDownIcon from '@/components/icons/trending-down';
 import { Area, AreaChart, ResponsiveContainer } from 'recharts';
 import SimpleBar from '@/components/ui/simplebar';
-import { getChartColorByEngagementRate } from '@/app/shared/analytics-dashboard/website-metrics/columns';
+import { getChartColorByEngagementRate } from '@/app/shared/analytics-dashboard/car-metrics/columns';
 
 interface StatsCardsProps {
   className?: string;

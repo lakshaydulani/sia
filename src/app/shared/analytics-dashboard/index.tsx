@@ -1,4 +1,4 @@
-import WebsiteMetrics from '@/app/shared/analytics-dashboard/website-metrics/table-widget';
+import CarMetrics from '@/app/shared/analytics-dashboard/car-metrics/table-widget';
 import AccountRetention from '@/app/shared/analytics-dashboard/account-retention';
 import Acquisition from '@/app/shared/analytics-dashboard/acquisition';
 import ConversionRates from '@/app/shared/analytics-dashboard/conversion-rates';
@@ -47,11 +47,12 @@ export default function AnalyticsDashboard() {
 
         <GoalAccomplished className="@4xl:col-start-2 @4xl:row-start-3 @7xl:col-span-6 @7xl:col-start-auto @7xl:row-start-auto @[90rem]:col-span-5 @[112rem]:col-span-4" />
 
-        <PageMetrics className="@4xl:col-span-2 @4xl:row-start-5 @7xl:col-span-12 @7xl:row-start-auto @[90rem]:col-span-7 @[112rem]:col-span-8" />
+        {/* <PageMetrics className="@4xl:col-span-2 @4xl:row-start-5 @7xl:col-span-12 @7xl:row-start-auto @[90rem]:col-span-7 @[112rem]:col-span-8" /> */}
+
+        <CarMetrics className="@4xl:col-span-2 @7xl:col-span-12" />
 
         <AccountRetention className="@7xl:col-span-12 @[90rem]:col-span-5 @[112rem]:col-span-4" />
 
-        <WebsiteMetrics className="@4xl:col-span-2 @7xl:col-span-12" />
       </div>
     </div>
   );

@@ -44,6 +44,10 @@ const nextConfig = {
         protocol: 'https',
         hostname: 'isomorphic-furyroad.s3.amazonaws.com',
       },
+      {
+        protocol: 'https',
+        hostname: '5.imimg.com',
+      },
     ],
   },
   reactStrictMode: false,
